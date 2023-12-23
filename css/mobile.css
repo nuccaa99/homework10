@@ -5,10 +5,31 @@
         height: 240px;
         row-gap: 24px;
     }
+
     .cover_section_title {
         font-size: 24px;
         line-height: 32px;
     }
 
+    /* second section */
+    .sec_section {
+        padding: 24px;
+        row-gap: 32px;
+    }
+
+    .sec_section_img {
+        height: 240px;
+    }
+
+
+    .sec_section_txt_content_title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .sec_section_txt_content_txt {
+        font-size: 14px;
+        line-height: 22px;
+    }
 
 }
