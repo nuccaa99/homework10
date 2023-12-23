@@ -4,13 +4,39 @@
     header {
         padding-inline: 32px;
     }
+
+    /* cover section */
+
+    .cover_section {
+        padding-inline: 66px;
+    }
+
 }
 
 
-@media (max-width: 835px) {
+@media (max-width: 900px) {
+
+    /* cover section */
+
+    .cover_section_title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+
+@media (max-width: 745px) {
 
     /* header */
     header {
         padding-inline: 24px;
     }
+
+    /* cover section */
+
+    .cover_section {
+        height: 320px;
+        padding-inline: 85px;
+    }
+
 }

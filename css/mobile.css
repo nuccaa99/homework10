@@ -1,0 +1,14 @@
+@media (max-width: 450px) {
+
+    /* cover section */
+    .cover_section {
+        height: 240px;
+        row-gap: 24px;
+    }
+    .cover_section_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+}

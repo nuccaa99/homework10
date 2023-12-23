@@ -14,7 +14,7 @@ header {
 }
 
 .logo {
-    color: #000;
+
     font-size: 24px;
     font-weight: 900;
     line-height: 32px;
@@ -29,7 +29,7 @@ header {
 }
 
 .list_link {
-    color: #000;
+
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -54,4 +54,44 @@ header {
 
 .burger_icon {
     display: none;
+}
+
+/* cover section */
+
+.cover_section {
+    height: 520px;
+    background-image: url(../images/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    padding-inline: 274px;
+
+}
+
+.cover_section_title {
+    text-shadow: 3px 3px 4px #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+}
+
+.cover_section_btn {
+    background-color: #000;
+    padding: 12px 30px 12px 31px;
+    border-radius: 32px;
+    box-shadow: 0px 4px 4px 0px #FFF;
+    color: #F3F3F3;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
 }
