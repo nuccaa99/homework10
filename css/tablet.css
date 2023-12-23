@@ -1,0 +1,16 @@
+@media (max-width: 700px) {
+
+    /* header */
+    header {
+        padding-block: 32px;
+    }
+
+    .burger_icon {
+        display: block;
+    }
+
+    nav,
+    .action_btn {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+@media (max-width: 1025px) {
+
+    /* header */
+    header {
+        padding-inline: 32px;
+    }
+}
+
+
+@media (max-width: 835px) {
+
+    /* header */
+    header {
+        padding-inline: 24px;
+    }
+}

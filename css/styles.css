@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+header {
+    padding: 24px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #000;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav_list {
+    display: flex;
+    column-gap: 36px;
+}
+
+.list_link {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
+}
+
+.action_btn {
+    padding: 12px 18px 12px 19px;
+    border-radius: 32px;
+    background: #524A44;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: -0.44px;
+    border: none;
+}
+
+.burger_icon {
+    display: none;
+}
