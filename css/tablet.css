@@ -9,7 +9,7 @@
         display: block;
     }
 
-    nav,
+    .header_nav,
     .action_btn {
         display: none;
     }
@@ -19,8 +19,8 @@
 
     /* cover section */
     .cover_section {
-       padding-inline: 24px;
+        padding-inline: 24px;
     }
 
-   
+
 }

@@ -32,4 +32,29 @@
         line-height: 22px;
     }
 
+    /* footer */
+    footer {
+        align-items: center;
+
+    }
+
+    .footer_content_wrapper {
+        column-gap: 10px;
+    }
+
+    .first,
+    .sec,
+    .third {
+        width: 102px;
+    }
+
+
+
+    .footer_content_tltle,
+    .footer_content_list_item {
+        text-align: center;
+    }
+
+
+
 }

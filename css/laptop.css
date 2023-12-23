@@ -43,6 +43,12 @@
         margin-inline: 32px;
 
     }
+
+    /* footer */
+    footer {
+        padding: 40px 32px;
+
+    }
 }
 
 
@@ -106,5 +112,12 @@
 
     .card_txt {
         text-align: center;
+    }
+
+    /* footer */
+    footer {
+        padding: 32px 24px;
+        flex-direction: column;
+        row-gap: 32px;
     }
 }
