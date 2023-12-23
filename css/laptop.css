@@ -36,6 +36,13 @@
     .sec_section_txt_content_txt {
         width: 50%;
     }
+
+    /* third section */
+
+    .third_section {
+        margin-inline: 32px;
+
+    }
 }
 
 
@@ -68,6 +75,7 @@
     .sec_section {
         padding: 24px;
     }
+
     .sec_section_img {
         height: 320px;
     }
@@ -83,4 +91,20 @@
         text-align: center;
     }
 
+    /* third section */
+
+    .third_section {
+        margin: 40px 24px;
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
+
+    .card_header {
+        justify-content: center;
+    }
+
+    .card_txt {
+        text-align: center;
+    }
 }
