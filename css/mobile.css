@@ -40,12 +40,13 @@
 
     .footer_content_wrapper {
         column-gap: 10px;
+        width: 100%;
     }
 
     .first,
     .sec,
     .third {
-        width: 102px;
+        width: 33%;
     }
 
 
